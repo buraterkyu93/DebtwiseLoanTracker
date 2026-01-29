@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>com.DebtwiseLoanTracker</string>
+		<string>group.com.DebtwiseLoanTracker</string>
 	</array>
 </dict>
 </plist>
