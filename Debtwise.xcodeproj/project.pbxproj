@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+
+/* Begin PBXFileReference section */
+		DDCFDEC12F28F6A300070A47 /* Debtwise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debtwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DDCFE1CA2F2B293E00070A47 /* Exceptions for "Debtwise" folder in "Debtwise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+
+			);
+			target = DDCFDEC02F28F6A300070A47 /* Debtwise */;
+		};
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDCFDEC32F28F6A300070A47 /* Debtwise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DDCFE1CA2F2B293E00070A47 /* Exceptions for "Debtwise" folder in "Debtwise" target */,
+			);
+			path = Debtwise;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+
+/* Begin PBXGroup section */
+		DDCFDEB82F28F6A300070A47 = {
+			isa = PBXGroup;
+			children = (
+				DDCFDEC32F28F6A300070A47 /* Debtwise */,
+				DDCFDEC22F28F6A300070A47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCFDEC22F28F6A300070A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCFDEC12F28F6A300070A47 /* Debtwise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCFDEC02F28F6A300070A47 /* Debtwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCFDECC2F28F6A500070A47 /* Build configuration list for PBXNativeTarget "Debtwise" */;
+			buildPhases = (
+				DDCFDEBD2F28F6A300070A47 /* Sources */,
+				DDCFDEBE2F28F6A300070A47 /* Frameworks */,
+				DDCFDEBF2F28F6A300070A47 /* Resources */,
+				DDCFE1DB2F2B2B8E00070A47 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCFE1D52F2B2B8E00070A47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDCFDEC32F28F6A300070A47 /* Debtwise */,
+			);
+			name = Debtwise;
+			packageProductDependencies = (
+
+			);
+			productName = Debtwise;
+			productReference = DDCFDEC12F28F6A300070A47 /* Debtwise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCFDEB92F28F6A300070A47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					DDCFDEC02F28F6A300070A47 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					DDCFE1CE2F2B2B8E00070A47 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DDCFDEBC2F28F6A300070A47 /* Build configuration list for PBXProject "Debtwise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCFDEB82F28F6A300070A47;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDCFDEC22F28F6A300070A47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCFDEC02F28F6A300070A47 /* Debtwise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCFDEBF2F28F6A300070A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCFE1CD2F2B2B8E00070A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCFDEBD2F28F6A300070A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCFE1CB2F2B2B8E00070A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+
+/* Begin XCBuildConfiguration section */
+		
+		DDCFDECD2F28F6A500070A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Debtwise/Debtwise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DebtwiseLoanTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDCFDECE2F28F6A500070A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Debtwise/Debtwise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 20;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DebtwiseLoanTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCFDEBC2F28F6A300070A47 /* Build configuration list for PBXProject "Debtwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCFDECA2F28F6A500070A47 /* Debug */,
+				DDCFDECB2F28F6A500070A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCFDECC2F28F6A500070A47 /* Build configuration list for PBXNativeTarget "Debtwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCFDECD2F28F6A500070A47 /* Debug */,
+				DDCFDECE2F28F6A500070A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DDCFDEB92F28F6A300070A47 /* Project object */;
+}
